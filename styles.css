@@ -1,0 +1,243 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+.navigation{
+    border: 2px solid;
+    width: 1350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainHeader{
+    font-size: 30px;
+    /* 
+    font weight:bold or bolder or light or numbers eg 500;
+    */
+    font-weight: 600;
+    color: black;
+}
+
+.listItems{
+    margin: 10;
+    padding: 10;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.primaryButton{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.primaryButton:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid red;
+    background-color: white
+}
+/* Navbar ended here */
+
+/* Hero section started here */
+
+#home{
+border:1px solid green;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: left;
+}
+
+.title{
+color: brown;
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraph{
+    font-size: 25px;
+    color: blue;
+    margin: 20px 0 20px 0;
+}
+
+.heroButtonContainer .learnMore{
+background-color: red;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+color: white
+}
+
+.heroButtonContainer .hireMe{
+    background-color: white;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid grey;    
+}
+
+.heroImage{
+    border: 1px solid grey;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 100px;
+}
+
+.name{
+    font-size: 75px;
+}
+
+.heroTab{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.intro{
+    margin: 20px 8px 20px;
+    font-size: 50px;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.hireMe{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#myWorks{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card1{
+    width: fit-content;
+    height: fit-content;
+    background-color: grey;
+    margin: 30PX;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.BOX{
+    margin-bottom: 20px;
+}
+
+.pic1{
+    border-radius: 16PX;
+    padding: 10px;
+}
+
+.card2{
+    width: fit-content;
+    height: fit-content;
+    background-color: gray;
+    margin: 30px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.BOX{
+    margin-bottom: 20px;
+}
+
+.pic2{
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.card3{
+    height: fit-content;
+    width: fit-content;
+    background-color: grey;
+    margin: 30px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.BOX{
+    margin-bottom: 20px;
+}
+
+.pic3{
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.card4{
+    height: fit-content;
+    width: fit-content;
+    background-color: grey;
+    margin: 30px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.BOX{
+    margin-bottom: 20px;
+}
+
+.pic4{
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.Text{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+.comic{
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif; 
+   color: white;
+   text-align: center;
+}
+
+#contact{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.bi{
+    font-size: 30px;
+    padding: 10px;
+}
