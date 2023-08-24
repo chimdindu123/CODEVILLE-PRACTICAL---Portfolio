@@ -84,11 +84,8 @@ color: white
 }
 
 .heroImage{
-    border: 1px solid grey;
     width: 500px;
     height: 500px;
-    border-radius: 5px;
-    margin: 100px;
 }
 
 .name{
@@ -239,5 +236,39 @@ button{
 
 .bi{
     font-size: 30px;
-    padding: 10px;
+    margin-left: 10px;
+    color: purple;
 }
+
+.emailadress{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+  @media screen and (min-width: 768px) {
+    #home{
+flex-direction: row;
+    }
+
+    .card{
+        color: black;
+        flex-direction: column;
+    }
+
+    #about{
+        flex-direction: column;
+    }
+
+    .intro{
+        text-decoration: underline;
+    }
+
+    .Text{
+        text-decoration: underline;
+        color: black;
+    }
+} 
